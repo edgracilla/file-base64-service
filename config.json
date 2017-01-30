@@ -1,0 +1,14 @@
+{
+  "source": {
+	"label": "Source Property/Field",
+	"type": "String",
+	"required": false,
+	"help": "The property in which the URL of the file is located. Default: url"
+  },
+  "result": {
+	"label": "Result Property/Field",
+	"type": "String",
+	"required": false,
+	"help": "The property where to put the result of the file conversion (base64 content). Default: contents"
+  }
+}
