@@ -1,28 +1,28 @@
 {
   "name": "file-base64-service",
-  "description": "A Service Plugin for the Reekoh IoT Platform which downloads a file from a given URL and serializes the contents by doing base64 encoding.",
   "version": "1.0.0",
-  "author": "Reekoh, Inc.",
+  "description": "Service plugin seed",
   "main": "app.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Reekoh/file-base64-service"
-  },
+  "author": "Reekoh, Inc.",
+  "license": "GPL-3.0",
   "dependencies": {
+    "amqp": "^0.2.6",
+    "reekoh": "^1.0.1",
     "request": "^2.79.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-cli": "^1.2.2",
+    "gulp-cli": "^1.2.1",
     "gulp-jshint": "^2.0.1",
     "gulp-json-lint": "^0.1.0",
     "gulp-mocha": "^2.2.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-standard": "^8.0.4",
+    "jshint": "^2.9.4",
     "mocha": "^2.5.3",
     "should": "^9.0.2"
-  },
-  "license": "GPL-3.0"
+  }
 }
